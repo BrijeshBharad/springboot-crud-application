@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+}
+label {
+	width:118%;
+}
+label.error {
+	color: red;
+	/* Change the color as needed */
+	font-size: 14px;
+	/* Adjust font size */
+	margin-top: 5px;
+	/* Add spacing from the input field */
+	display: block;
+	/* Display error message as a block element */
+	width: 60%;
+}
+#myform {
+	margin: auto;
+	margin-top: 50px;
+	width: 520px;
+	border: solid;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 30px
+}
+.row {
+	display: flex; /* Use flexbox for the row */
+	align-items: center;
+}
+.col-25 {
+	flex: 1.5; /* Distribute available space equally between columns */
+	margin-right: 10px;
+}
+.column2 {
+	flex: 3;
+}
+.title {
+	margin-left: 405px;
+}
+.container2 {
+	padding-left: 11px;
+	padding-bottom: 20px
+}
+.formheading{
+	text-align: center;
+	padding-top: 9px
+}
